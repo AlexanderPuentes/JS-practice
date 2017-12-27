@@ -1,5 +1,5 @@
 
-/*
+
 function stickyDiv() {
     var $div = $("#the-target");
     if ($(window).scrollTop() > $div.data("top")) {
@@ -11,7 +11,7 @@ function stickyDiv() {
 
 $("#the-target").data("top", $("#the-target").offset().top);
 $(window).scroll(stickyDiv);
-*/
+
 
 //////////////////////////////////////////////////////
 
@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 
 ///////////////////////////////////////////////////////
 
-
+/*
 var holder = this;
 
 $.fn.followTo = function ( elem ) {
@@ -85,3 +85,4 @@ $.fn.followTo = function ( elem ) {
 };
 
 $('#the-target').followTo('#stop-target');
+*/
