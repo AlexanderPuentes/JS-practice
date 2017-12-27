@@ -1,5 +1,5 @@
 
-
+/*
 function stickyDiv() {
     var $div = $("#the-target");
     if ($(window).scrollTop() > $div.data("top")) {
@@ -11,19 +11,19 @@ function stickyDiv() {
 
 $("#the-target").data("top", $("#the-target").offset().top);
 $(window).scroll(stickyDiv);
-
+*/
 
 //////////////////////////////////////////////////////
 
-/*
+
 document.querySelector('#the-target').addEventListener('scroll', function(){
   if ($(window).scrollTop() > '#the-target') {
     $('#the-target').css({'position': 'fixed', 'top': 'auto', 'width': '100%'});
 } else {
-    $('#the-target').css({'position': 'none', 'top': 'auto', 'width': '100%'});
+    $('#the-target').css({'position': 'static', 'top': 'auto', 'width': '100%'});
 }
 });
-*/
+
 
 /////////////////////////////////////////////////////
 
